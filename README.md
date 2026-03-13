@@ -1,33 +1,14 @@
 # QUARKS Website
 
-This is the official website for the QUARKS (Quasar Absorption and Reionization at Cosmic Dawn) project.
+This is the website for the ALMA QUARKS (Querying Underlying mechanisms of massive star formation with ALMA-Resolved gas Kinematics and Structures) project.
 
-## Features
+## Contents
 
 - **Continuum Data**: Browse and download continuum images and FITS files for 139 sources
 - **Target Information**: Detailed information about observation targets
-- **Image Gallery**: High-quality images from observations
-- **Data Downloads**: Direct access to FITS files for scientific analysis
+- **Image Gallery**: High-quality images from multi-scale observations
 
-## Website Structure
 
-- `docs/` - Main website content
-- `docs/continuum/` - Continuum data and FITS files
-- `docs/Figures/` - Image assets
-- `mkdocs.yml` - MkDocs configuration
-
-## Accessing the Data
-
-Visit [www.ALMAQUARKS.com](https://www.ALMAQUARKS.com) to:
-- Browse continuum images organized in paginated galleries
-- Download FITS files by clicking on source names
-- Access target information and publications
-
-## Data Size
-
-- Total continuum data: ~657MB
-- 139 sources with corresponding FITS files
-- Individual FITS files: ~3-10MB each
 
 ## Contact
 
