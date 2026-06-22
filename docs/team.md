@@ -23,6 +23,7 @@
     <div class="quarks-team__member"><span>Kee-Tae Kim</span><strong>Kim</strong></div>
     <div class="quarks-team__member"><span>Shanghuo Li</span><strong>Li</strong></div>
     <div class="quarks-team__member"><span>Hong-li Liu</span><strong>Liu</strong></div>
+    <div class="quarks-team__member"><span>Xunchuan Liu</span><strong>Liu</strong></div>
     <div class="quarks-team__member"><span>Sheng-Yuan Liu</span><strong>Liu</strong></div>
     <div class="quarks-team__member"><span>Tie Liu</span><strong>Liu</strong></div>
     <div class="quarks-team__member"><span>Xing Lu</span><strong>Lu</strong></div>
