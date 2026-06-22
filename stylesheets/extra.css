@@ -151,7 +151,10 @@
     width: 100%;
     margin: 0 auto;
     padding: clamp(3.5rem, 8vw, 6rem) 2rem clamp(7rem, 14vh, 9rem);
-    transform: translateY(-1.8rem);
+}
+
+.quarks-hero__content > :not(.quarks-actions) {
+    transform: translateY(-1.35rem);
 }
 
 .quarks-kicker {
@@ -193,7 +196,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
-    margin-top: 1.8rem;
+    margin-top: 2.4rem;
 }
 
 .md-typeset .quarks-button {
@@ -787,6 +790,9 @@
 
     .quarks-hero__content {
         padding: 4rem 1rem 3rem;
+    }
+
+    .quarks-hero__content > :not(.quarks-actions) {
         transform: none;
     }
 
