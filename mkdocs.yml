@@ -1,4 +1,4 @@
-site_name: QUARKS Website
+site_name: ALMA QUARKS Survey
 
 theme:
   name: material
@@ -20,9 +20,11 @@ extra_css:
 
 nav:
   - Home: index.md
+  - Legacy: legacy.md
   - Targets: targets.md
   - Continuum: continuum.md
-  - Image: image.md
-  - Data Policy: datapolicy.md
+  - Atlas: atlas.md
   - Publications: publications.md
-  - Contact us: contact.md
+  - Team: team.md
+  - Projects: projects.md
+  - Contact: contact.md
