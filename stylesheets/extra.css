@@ -427,7 +427,7 @@
 }
 
 .quarks-publications {
-    max-width: 980px;
+    max-width: 1040px;
     margin: 0 auto 2.5rem;
 }
 
@@ -449,7 +449,7 @@
 
 .md-typeset .quarks-publication-group__header h2 {
     margin: 0;
-    color: #132235;
+    color: #0f3654;
     font-size: 1.45rem;
     letter-spacing: 0;
 }
@@ -491,7 +491,7 @@
 
 .md-typeset .quarks-publication-list a {
     display: inline-block;
-    color: #0f3654;
+    color: #0b5d73;
     font-weight: 800;
     text-decoration: none;
 }
@@ -521,17 +521,66 @@
     border-left: 4px solid #2d7f73;
 }
 
+.quarks-publication-list--series {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.quarks-publication-list--series li {
+    padding: 1.2rem 1.15rem 1.15rem;
+    border-color: #9fcfc5;
+    border-top: 5px solid #2d7f73;
+    box-shadow: 0 12px 28px rgba(19, 34, 53, 0.08);
+}
+
+.quarks-publication-list--series li::before {
+    position: static;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+    color: #2d7f73;
+    font-size: 0.82rem;
+}
+
+.md-typeset .quarks-publication-list--series a {
+    color: #0f3654;
+    font-size: 1.08rem;
+}
+
+.quarks-publication-list--series span {
+    font-size: 0.94rem;
+}
+
 .quarks-publication-list--compact {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.55rem;
 }
 
 .quarks-publication-list--compact li {
-    min-height: 9.2rem;
+    padding: 0.72rem 0.8rem 0.72rem 2.65rem;
+    border-radius: 6px;
+}
+
+.quarks-publication-list--compact li::before {
+    top: 0.78rem;
+    left: 0.82rem;
+    font-size: 0.72rem;
+}
+
+.md-typeset .quarks-publication-list--compact a {
+    color: #126b80;
+    font-size: 0.94rem;
+    line-height: 1.35;
+}
+
+.quarks-publication-list--compact span {
+    margin-top: 0.25rem;
+    font-size: 0.84rem;
+    line-height: 1.42;
 }
 
 .quarks-publication-meta {
     color: #647587 !important;
-    font-size: 0.82rem !important;
+    font-size: 0.76rem !important;
     font-weight: 700;
 }
 
@@ -593,6 +642,10 @@
         gap: 0.4rem;
     }
 
+    .quarks-publication-list--series {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
     .quarks-publication-list--compact {
         grid-template-columns: 1fr;
     }
@@ -622,6 +675,10 @@
     .quarks-overview,
     .quarks-links,
     .quarks-team__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .quarks-publication-list--series {
         grid-template-columns: 1fr;
     }
 
