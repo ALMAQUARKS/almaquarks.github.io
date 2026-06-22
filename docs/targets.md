@@ -43,9 +43,9 @@
           <th>R.A.</th>
           <th>Decl.</th>
           <th>Distance<br><span>kpc</span></th>
-          <th>\(T_{\rm dust}\)<br><span>K</span></th>
-          <th>\(\log L_{\rm bol}\)<br><span>\(L_{\odot}\)</span></th>
-          <th>\(\log M\)<br><span>\(M_{\odot}\)</span></th>
+          <th>T<sub>dust</sub><br><span>K</span></th>
+          <th>log L<sub>bol</sub><br><span>L<sub>&odot;</sub></span></th>
+          <th>log M<br><span>M<sub>&odot;</sub></span></th>
         </tr>
       </thead>
       <tbody>

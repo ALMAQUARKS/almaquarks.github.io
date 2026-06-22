@@ -638,6 +638,11 @@
     font-weight: 700;
 }
 
+.md-typeset table.quarks-target-table th sub {
+    font-size: 0.72em;
+    line-height: 0;
+}
+
 .md-typeset table.quarks-target-table tr:nth-child(even) {
     background-color: #f8fbfd !important;
 }
