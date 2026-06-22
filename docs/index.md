@@ -48,7 +48,7 @@
     </p>
     <p>
       This website is designed as the public entry point for QUARKS products: target information, continuum images and FITS
-      files, source-by-source multi-scale atlases, publications, team information, and follow-up science projects.
+      files, source-by-source multi-scale atlases, publications, team information, and contact points for collaboration.
     </p>
   </div>
 </section>
@@ -74,8 +74,8 @@
     <span class="quarks-link__title">Publications</span>
     <span class="quarks-link__text">Papers and science results based on ATOMS and QUARKS observations.</span>
   </a>
-  <a class="quarks-link" href="projects/">
-    <span class="quarks-link__title">Projects</span>
-    <span class="quarks-link__text">Follow-up science themes and related programs enabled by the survey products.</span>
+  <a class="quarks-link" href="contact/">
+    <span class="quarks-link__title">Contact</span>
+    <span class="quarks-link__text">Find contact information for data questions, collaboration requests, and website updates.</span>
   </a>
 </section>

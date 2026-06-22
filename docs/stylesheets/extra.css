@@ -425,6 +425,97 @@
     text-transform: uppercase;
 }
 
+.quarks-publications {
+    max-width: 980px;
+    margin: 0 auto 2.5rem;
+}
+
+.quarks-publication-group {
+    padding: 1.35rem 0;
+    border-top: 1px solid #d8e2ea;
+}
+
+.quarks-publication-group:last-child {
+    border-bottom: 1px solid #d8e2ea;
+}
+
+.quarks-publication-group__header {
+    display: grid;
+    grid-template-columns: minmax(180px, 0.55fr) minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: baseline;
+}
+
+.md-typeset .quarks-publication-group__header h2 {
+    margin: 0;
+    color: #132235;
+    font-size: 1.45rem;
+    letter-spacing: 0;
+}
+
+.quarks-publication-group__header p {
+    margin: 0;
+    color: #647587;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.md-typeset .quarks-publication-list {
+    display: grid;
+    gap: 0.8rem;
+    margin: 1.15rem 0 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: publication;
+}
+
+.quarks-publication-list li {
+    position: relative;
+    padding: 1rem 1rem 1rem 3.25rem;
+    border: 1px solid #d8e2ea;
+    border-radius: 8px;
+    background: #ffffff;
+    counter-increment: publication;
+}
+
+.quarks-publication-list li::before {
+    content: counter(publication, decimal-leading-zero);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: #2d7f73;
+    font-size: 0.78rem;
+    font-weight: 800;
+}
+
+.md-typeset .quarks-publication-list a {
+    display: inline-block;
+    color: #0f3654;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.md-typeset .quarks-publication-list a:hover {
+    color: #2d7f73;
+}
+
+.quarks-publication-list span {
+    display: block;
+    margin-top: 0.35rem;
+    color: #526579;
+    font-size: 0.93rem;
+    line-height: 1.55;
+}
+
+.quarks-publication-empty {
+    margin-top: 1.15rem;
+    padding: 1rem;
+    border: 1px dashed #b9c8d4;
+    border-radius: 8px;
+    color: #647587;
+    background: #f8fbfd;
+}
+
 @media screen and (max-width: 900px) {
     .md-header__inner {
         display: flex !important;
@@ -460,6 +551,11 @@
 
     .quarks-team__header p {
         margin-top: 0.45rem;
+    }
+
+    .quarks-publication-group__header {
+        grid-template-columns: 1fr;
+        gap: 0.4rem;
     }
 }
 
