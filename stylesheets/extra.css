@@ -15,7 +15,7 @@
 
 /* 让tabs直接占据header的位置 */
 .md-header {
-    height: 48px !important; /* 只保留tabs的高度 */
+    height: 56px !important;
     padding: 0 !important;
 }
 
@@ -24,16 +24,20 @@
     position: relative !important;
     top: 0 !important;
     margin: 0 !important;
+    height: 56px !important;
 }
 
 .md-tabs__inner {
-    max-width: 1200px !important;
+    max-width: 1160px !important;
     margin: 0 auto !important;
+    padding: 0 2rem !important;
 }
 
-/* 或者如果上面不行，试试这个方法 */
 .md-tabs__list {
-    margin-left: 48px !important; /* 调整这个数值来控制菜单栏位置：正数向右，负数向左 */
+    width: 100% !important;
+    margin-left: 0 !important;
+    justify-content: center !important;
+    gap: 0.45rem !important;
 }
 
 /* 强制内容区域完全居中 */
@@ -73,7 +77,10 @@
 
 /* 调整导航标签字体大小 */
 .md-tabs__link {
-    font-size: 0.98rem !important;
+    min-height: 56px !important;
+    padding: 0 0.45rem !important;
+    font-size: 1.03rem !important;
+    font-weight: 700 !important;
 }
 
 /* 确保文字内容居中对齐 */
@@ -346,7 +353,7 @@
 }
 
 .quarks-page-heading {
-    max-width: 920px;
+    max-width: 1060px;
     margin: 2.8rem auto 2rem;
 }
 
@@ -433,7 +440,7 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1px;
-    max-width: 980px;
+    max-width: 1060px;
     margin: 0 auto 2rem;
     border: 1px solid #d8e2ea;
     background: #d8e2ea;
@@ -462,6 +469,11 @@
 }
 
 .quarks-atlas {
+    max-width: 1060px;
+    margin: 0 auto 2.5rem;
+}
+
+.quarks-continuum {
     max-width: 1060px;
     margin: 0 auto 2.5rem;
 }
@@ -515,8 +527,102 @@
     color: #2d7f73;
 }
 
+.quarks-product-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.15rem;
+}
+
+.quarks-product-grid--atlas {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.quarks-product-grid--continuum {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.quarks-product-card {
+    overflow: hidden;
+    border: 1px solid #d8e2ea;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 10px 24px rgba(19, 34, 53, 0.06);
+}
+
+.quarks-product-card__image {
+    display: block;
+    background: #eef3f7;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+}
+
+.quarks-product-card__image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 180ms ease;
+}
+
+.quarks-product-card__image:hover img {
+    transform: scale(1.015);
+}
+
+.quarks-product-card__body {
+    padding: 0.85rem 0.9rem 0.9rem;
+}
+
+.md-typeset .quarks-product-card h3 {
+    margin: 0;
+    font-size: 1rem;
+    letter-spacing: 0;
+}
+
+.md-typeset .quarks-product-card h3 a {
+    color: #0f3654;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.md-typeset .quarks-product-card h3 a:hover {
+    color: #2d7f73;
+}
+
+.quarks-product-card__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 0.7rem;
+}
+
+.md-typeset .quarks-product-card__actions a,
+.quarks-product-card__disabled {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.1rem;
+    padding: 0.45rem 0.62rem;
+    border: 1px solid #c9d7e1;
+    border-radius: 6px;
+    color: #0f3654;
+    background: #f8fbfd;
+    font-size: 0.78rem;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.md-typeset .quarks-product-card__actions a:hover {
+    border-color: #2d7f73;
+    color: #2d7f73;
+    background: #eef8f5;
+}
+
+.quarks-product-card__disabled {
+    color: #7a8793;
+    background: #f2f5f7;
+}
+
 .quarks-publications {
-    max-width: 1040px;
+    max-width: 1060px;
     margin: 0 auto 2.5rem;
 }
 
@@ -768,6 +874,11 @@
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
+    .quarks-product-grid--atlas,
+    .quarks-product-grid--continuum {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
     .quarks-publication-group__header {
         grid-template-columns: 1fr;
         gap: 0.4rem;
@@ -813,7 +924,9 @@
     }
 
     .quarks-atlas-summary,
-    .quarks-atlas__grid {
+    .quarks-atlas__grid,
+    .quarks-product-grid--atlas,
+    .quarks-product-grid--continuum {
         grid-template-columns: 1fr;
     }
 
