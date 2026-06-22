@@ -2,7 +2,7 @@
   <p class="quarks-kicker">Contact</p>
   <h1>Contact the QUARKS Team</h1>
   <p>
-    For questions about the QUARKS survey, target sample, continuum products, source atlases, or related collaborations, please contact the team by email.
+    For questions about the QUARKS survey, please contact the team by email.
   </p>
 </section>
 
@@ -14,15 +14,6 @@
     <div class="quarks-contact-card__actions">
       <a href="mailto:astrojiao@gmail.com">astrojiao@gmail.com</a>
       <a href="mailto:liutie@shao.ac.cn">liutie@shao.ac.cn</a>
-    </div>
-  </article>
-  <article class="quarks-contact-card">
-    <span>Collaboration</span>
-    <h2>Follow-up Science</h2>
-    <p>Use this contact for collaboration discussions, follow-up projects, and publication-related questions.</p>
-    <div class="quarks-contact-card__actions">
-      <a href="mailto:liutie@shao.ac.cn">liutie@shao.ac.cn</a>
-      <a href="mailto:astrojiao@gmail.com">astrojiao@gmail.com</a>
     </div>
   </article>
 </section>
