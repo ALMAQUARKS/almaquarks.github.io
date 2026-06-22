@@ -621,6 +621,105 @@
     background: #f2f5f7;
 }
 
+.quarks-product-pager {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.45rem;
+    margin: 1.4rem 0 0;
+}
+
+.quarks-product-pager button {
+    min-width: 2.35rem;
+    min-height: 2.35rem;
+    padding: 0.45rem 0.7rem;
+    border: 1px solid #c9d7e1;
+    border-radius: 6px;
+    color: #0f3654;
+    background: #ffffff;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.quarks-product-pager button[aria-current="page"] {
+    border-color: #2d7f73;
+    color: #ffffff;
+    background: #2d7f73;
+}
+
+.quarks-product-pager button:hover:not(:disabled) {
+    border-color: #2d7f73;
+    color: #2d7f73;
+    background: #eef8f5;
+}
+
+.quarks-product-pager button:disabled {
+    opacity: 0.45;
+    cursor: default;
+}
+
+.quarks-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    background: rgba(6, 16, 27, 0.92);
+}
+
+.quarks-lightbox.is-open {
+    display: flex;
+}
+
+.quarks-lightbox-open {
+    overflow: hidden;
+}
+
+.quarks-lightbox__figure {
+    width: min(96vw, 1500px);
+    max-height: 94vh;
+    margin: 0;
+    display: grid;
+    gap: 0.7rem;
+}
+
+.quarks-lightbox__image {
+    display: block;
+    max-width: 100%;
+    max-height: calc(94vh - 3rem);
+    margin: 0 auto;
+    object-fit: contain;
+    background: #ffffff;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+}
+
+.quarks-lightbox__caption {
+    color: #ffffff;
+    font-size: 0.95rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.quarks-lightbox__close {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    min-height: 2.3rem;
+    padding: 0.45rem 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 6px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.12);
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.quarks-lightbox__close:hover {
+    background: rgba(255, 255, 255, 0.22);
+}
+
 .quarks-publications {
     max-width: 1060px;
     margin: 0 auto 2.5rem;
