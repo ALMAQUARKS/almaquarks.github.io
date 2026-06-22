@@ -33,7 +33,7 @@
 
 /* 或者如果上面不行，试试这个方法 */
 .md-tabs__list {
-    margin-left: 120px !important; /* 调整这个数值来控制菜单栏位置：正数向右，负数向左 */
+    margin-left: 48px !important; /* 调整这个数值来控制菜单栏位置：正数向右，负数向左 */
 }
 
 /* 强制内容区域完全居中 */
@@ -73,7 +73,7 @@
 
 /* 调整导航标签字体大小 */
 .md-tabs__link {
-    font-size: 1.1rem !important;
+    font-size: 0.98rem !important;
 }
 
 /* 确保文字内容居中对齐 */
@@ -108,4 +108,294 @@
 /* 表格悬停效果 */
 .md-typeset table tr:hover {
     background-color: #e8f4fd !important;
+}
+
+/* QUARKS home page */
+.md-content__inner:has(.quarks-hero) {
+    padding-top: 0 !important;
+}
+
+.quarks-hero {
+    position: relative;
+    width: 100vw;
+    min-height: min(72vh, 720px);
+    margin-left: calc(-50vw + 50%);
+    display: grid;
+    align-items: end;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.quarks-hero__image,
+.quarks-hero__overlay {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.quarks-hero__image {
+    object-fit: cover;
+}
+
+.quarks-hero__overlay {
+    background:
+        linear-gradient(90deg, rgba(5, 17, 30, 0.86), rgba(5, 17, 30, 0.48) 52%, rgba(5, 17, 30, 0.16)),
+        linear-gradient(0deg, rgba(5, 17, 30, 0.7), rgba(5, 17, 30, 0.02) 52%);
+}
+
+.quarks-hero__content {
+    position: relative;
+    z-index: 1;
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+    padding: clamp(4rem, 10vw, 8rem) 2rem 3.5rem;
+}
+
+.quarks-kicker {
+    margin: 0 0 0.7rem;
+    color: #9be0d1;
+    font-size: 0.86rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.md-typeset .quarks-hero h1 {
+    display: block !important;
+    margin: 0;
+    color: #ffffff;
+    font-size: clamp(3rem, 7vw, 5.6rem);
+    line-height: 0.92;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+.quarks-subtitle {
+    max-width: 850px;
+    margin: 1rem 0 0;
+    color: #e7eef4;
+    font-size: clamp(1.05rem, 2vw, 1.35rem);
+    line-height: 1.45;
+}
+
+.quarks-summary {
+    max-width: 760px;
+    margin: 1.2rem 0 0;
+    color: #d4dee7;
+    font-size: 1rem;
+    line-height: 1.65;
+}
+
+.quarks-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.8rem;
+}
+
+.md-typeset .quarks-button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.7rem;
+    padding: 0.65rem 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    border-radius: 6px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.md-typeset .quarks-button--primary {
+    background: #f0b44c;
+    border-color: #f0b44c;
+    color: #132235;
+}
+
+.md-typeset .quarks-button--primary:hover {
+    background: #ffd27a;
+    border-color: #ffd27a;
+    color: #132235;
+}
+
+.md-typeset .quarks-button--secondary {
+    color: #ffffff;
+}
+
+.md-typeset .quarks-button--secondary:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.55);
+    color: #ffffff;
+}
+
+.quarks-overview {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1px;
+    margin: 0 auto;
+    max-width: 1160px;
+    background: #d8e2ea;
+    border: 1px solid #d8e2ea;
+}
+
+.quarks-stat {
+    min-height: 8.5rem;
+    padding: 1.35rem 1.1rem;
+    background: #ffffff;
+}
+
+.quarks-stat__value,
+.quarks-stat__label {
+    display: block;
+}
+
+.quarks-stat__value {
+    color: #0f3654;
+    font-size: clamp(1.8rem, 4vw, 2.65rem);
+    line-height: 1;
+    font-weight: 800;
+}
+
+.quarks-stat__label {
+    margin-top: 0.65rem;
+    color: #516171;
+    font-size: 0.92rem;
+}
+
+.quarks-section {
+    display: grid;
+    grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.2fr);
+    gap: clamp(2rem, 5vw, 4rem);
+    max-width: 1160px;
+    margin: 4rem auto 0;
+    padding: 0 0.25rem;
+}
+
+.quarks-section__eyebrow {
+    margin: 0 0 0.55rem;
+    color: #2d7f73;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.md-typeset .quarks-section h2 {
+    margin: 0;
+    color: #132235;
+    font-size: clamp(1.7rem, 4vw, 2.6rem);
+    line-height: 1.12;
+    font-weight: 750;
+    letter-spacing: 0;
+}
+
+.quarks-section__body p {
+    margin-top: 0;
+    color: #37495a;
+    font-size: 1.02rem;
+    line-height: 1.72;
+}
+
+.quarks-links {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    max-width: 1160px;
+    margin: 3rem auto 1rem;
+}
+
+.md-typeset .quarks-link {
+    display: block;
+    min-height: 10rem;
+    padding: 1.25rem;
+    border: 1px solid #d8e2ea;
+    border-radius: 8px;
+    background: #ffffff;
+    color: inherit;
+    text-decoration: none;
+    transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.md-typeset .quarks-link:hover {
+    border-color: #78b8ab;
+    box-shadow: 0 12px 28px rgba(19, 34, 53, 0.1);
+    transform: translateY(-2px);
+}
+
+.quarks-link__title,
+.quarks-link__text {
+    display: block;
+}
+
+.quarks-link__title {
+    color: #0f3654;
+    font-size: 1.08rem;
+    font-weight: 800;
+}
+
+.quarks-link__text {
+    margin-top: 0.75rem;
+    color: #536578;
+    font-size: 0.92rem;
+    line-height: 1.55;
+}
+
+@media screen and (max-width: 900px) {
+    .md-header__inner {
+        display: flex !important;
+    }
+
+    .md-header {
+        height: auto !important;
+    }
+
+    .md-main__inner {
+        padding: 0 1rem !important;
+    }
+
+    .md-tabs__list {
+        margin-left: 0 !important;
+    }
+
+    .quarks-overview,
+    .quarks-links {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .quarks-section {
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .quarks-hero {
+        min-height: 680px;
+        align-items: end;
+    }
+
+    .quarks-hero__content {
+        padding: 5rem 1rem 2rem;
+    }
+
+    .quarks-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .md-typeset .quarks-button {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .quarks-overview,
+    .quarks-links {
+        grid-template-columns: 1fr;
+    }
+
+    .quarks-stat {
+        min-height: auto;
+    }
 }

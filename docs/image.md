@@ -1,3 +1,0 @@
-# Image
-
-Coming soon...
