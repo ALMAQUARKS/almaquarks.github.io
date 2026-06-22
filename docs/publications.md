@@ -1,10 +1,6 @@
 <section class="quarks-page-heading">
   <p class="quarks-section__eyebrow">Literature</p>
   <h1>Publications</h1>
-  <p>
-    Publications are grouped into QUARKS series papers, QUARKS-related papers, and Legacy papers from the ATOMS survey.
-    Links point to public abstract pages or preprint records.
-  </p>
 </section>
 
 <section class="quarks-publications">
@@ -14,24 +10,24 @@
       <p>Core papers presenting the QUARKS survey and first science results.</p>
     </div>
 
-    <ol class="quarks-publication-list quarks-publication-list--featured">
+    <ol class="quarks-publication-list quarks-publication-list--series">
       <li>
         <a href="https://ui.adsabs.harvard.edu/abs/2024RAA....24b5009L/abstract" target="_blank" rel="noopener">
           QUARKS Paper I
         </a>
-        <span>Survey overview and first QUARKS data release paper.</span>
+        <span>Introduces the QUARKS survey design, target sample, observing strategy, and the first high-resolution ALMA Band 6 view of dense protoclusters selected from the ATOMS legacy.</span>
       </li>
       <li>
         <a href="https://ui.adsabs.harvard.edu/abs/2024RAA....24f5011X/abstract" target="_blank" rel="noopener">
           QUARKS Paper II
         </a>
-        <span>Second paper in the QUARKS series.</span>
+        <span>Presents early QUARKS science enabled by the Band 6 data products, focusing on the internal structure and physical conditions of massive protocluster targets.</span>
       </li>
       <li>
         <a href="https://ui.adsabs.harvard.edu/abs/2025arXiv250803229Y/abstract" target="_blank" rel="noopener">
           QUARKS Paper III
         </a>
-        <span>Third paper in the QUARKS series.</span>
+        <span>Extends the QUARKS survey series with new analysis of dense structures and source evolution across the high-resolution target sample.</span>
       </li>
     </ol>
   </div>
