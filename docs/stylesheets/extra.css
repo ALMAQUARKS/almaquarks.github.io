@@ -341,6 +341,90 @@
     line-height: 1.55;
 }
 
+.quarks-page-heading {
+    max-width: 920px;
+    margin: 2.8rem auto 2rem;
+}
+
+.md-typeset .quarks-page-heading h1 {
+    display: block !important;
+    margin: 0;
+    color: #132235;
+    font-size: clamp(2.2rem, 5vw, 3.6rem);
+    line-height: 1.05;
+    font-weight: 800;
+    letter-spacing: 0;
+}
+
+.quarks-page-heading p:last-child {
+    margin: 1rem 0 0;
+    color: #4c5f70;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.quarks-team {
+    max-width: 1060px;
+    margin: 0 auto 2rem;
+}
+
+.quarks-team__header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: end;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d8e2ea;
+}
+
+.md-typeset .quarks-team__header h2 {
+    margin: 0;
+    color: #132235;
+    font-size: 1.55rem;
+    letter-spacing: 0;
+}
+
+.quarks-team__header p {
+    margin: 0;
+    color: #647587;
+    font-size: 0.9rem;
+}
+
+.quarks-team__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+}
+
+.quarks-team__member {
+    min-height: 4.6rem;
+    padding: 0.9rem 1rem;
+    border: 1px solid #d8e2ea;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.quarks-team__member span,
+.quarks-team__member strong {
+    display: block;
+}
+
+.quarks-team__member span {
+    color: #132235;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.quarks-team__member strong {
+    margin-top: 0.35rem;
+    color: #2d7f73;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 900px) {
     .md-header__inner {
         display: flex !important;
@@ -359,7 +443,8 @@
     }
 
     .quarks-overview,
-    .quarks-links {
+    .quarks-links,
+    .quarks-team__grid {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -367,6 +452,14 @@
         grid-template-columns: 1fr;
         gap: 1.2rem;
         margin-top: 3rem;
+    }
+
+    .quarks-team__header {
+        display: block;
+    }
+
+    .quarks-team__header p {
+        margin-top: 0.45rem;
     }
 }
 
@@ -391,7 +484,8 @@
     }
 
     .quarks-overview,
-    .quarks-links {
+    .quarks-links,
+    .quarks-team__grid {
         grid-template-columns: 1fr;
     }
 
