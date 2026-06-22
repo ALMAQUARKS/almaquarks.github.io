@@ -357,6 +357,10 @@
     margin: 2.8rem auto 2rem;
 }
 
+.quarks-page-heading--compact {
+    margin-bottom: 1.45rem;
+}
+
 .md-typeset .quarks-page-heading h1 {
     display: block !important;
     margin: 0;
@@ -372,6 +376,376 @@
     color: #4c5f70;
     font-size: 1.05rem;
     line-height: 1.7;
+}
+
+.md-typeset .quarks-button--outline {
+    border-color: #8fb7c8;
+    color: #0f3654;
+    background: #ffffff;
+}
+
+.md-typeset .quarks-button--outline:hover {
+    border-color: #2d7f73;
+    color: #2d7f73;
+    background: #eef8f5;
+}
+
+.quarks-info-grid,
+.quarks-target-summary,
+.quarks-contact-grid,
+.quarks-story,
+.quarks-flow,
+.quarks-legacy-actions,
+.quarks-targets,
+.quarks-contact-note {
+    max-width: 1060px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.quarks-info-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.quarks-info-card {
+    padding: 1.15rem 1.1rem 1.2rem;
+    border: 1px solid #d8e2ea;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 10px 24px rgba(19, 34, 53, 0.05);
+}
+
+.quarks-info-card span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 999px;
+    color: #ffffff;
+    background: #2d7f73;
+    font-size: 0.78rem;
+    font-weight: 800;
+}
+
+.md-typeset .quarks-info-card h2 {
+    margin: 1rem 0 0;
+    color: #0f3654;
+    font-size: 1.1rem;
+    letter-spacing: 0;
+}
+
+.quarks-info-card p {
+    margin: 0.65rem 0 0;
+    color: #536578;
+    font-size: 0.92rem;
+    line-height: 1.55;
+}
+
+.quarks-story {
+    display: grid;
+    grid-template-columns: minmax(220px, 0.48fr) minmax(0, 1fr);
+    gap: clamp(1.4rem, 4vw, 3rem);
+    margin-top: 2.4rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #d8e2ea;
+}
+
+.md-typeset .quarks-story h2,
+.md-typeset .quarks-targets__header h2,
+.md-typeset .quarks-contact-card h2 {
+    margin: 0;
+    color: #132235;
+    letter-spacing: 0;
+}
+
+.md-typeset .quarks-story h2 {
+    font-size: clamp(1.55rem, 3vw, 2.25rem);
+    line-height: 1.15;
+}
+
+.quarks-story__body p {
+    margin: 0 0 1rem;
+    color: #3f5264;
+    font-size: 1rem;
+    line-height: 1.68;
+}
+
+.quarks-flow {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1px;
+    margin-top: 1.4rem;
+    border: 1px solid #d8e2ea;
+    background: #d8e2ea;
+}
+
+.quarks-flow__item {
+    position: relative;
+    padding: 1rem 1.1rem;
+    background: #f8fbfd;
+}
+
+.quarks-flow__item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -0.45rem;
+    z-index: 1;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-top: 1px solid #d8e2ea;
+    border-right: 1px solid #d8e2ea;
+    background: #f8fbfd;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.quarks-flow__item strong,
+.quarks-flow__item span {
+    display: block;
+}
+
+.quarks-flow__item strong {
+    color: #2d7f73;
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+.quarks-flow__item span {
+    margin-top: 0.38rem;
+    color: #4f6275;
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+.quarks-legacy-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+}
+
+.quarks-target-summary {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1px;
+    border: 1px solid #d8e2ea;
+    background: #d8e2ea;
+}
+
+.quarks-target-summary article {
+    padding: 1rem 1.1rem;
+    background: #ffffff;
+}
+
+.quarks-target-summary strong,
+.quarks-target-summary span {
+    display: block;
+}
+
+.quarks-target-summary strong {
+    color: #0f3654;
+    font-size: 1.45rem;
+    line-height: 1;
+    font-weight: 800;
+}
+
+.quarks-target-summary span {
+    margin-top: 0.45rem;
+    color: #647587;
+    font-size: 0.86rem;
+    line-height: 1.35;
+}
+
+.quarks-targets {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.quarks-targets__header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: end;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d8e2ea;
+}
+
+.md-typeset .quarks-targets__header h2 {
+    font-size: 1.55rem;
+}
+
+.quarks-targets__header p {
+    max-width: 420px;
+    margin: 0;
+    color: #647587;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: right;
+}
+
+.quarks-targets__header .quarks-section__eyebrow {
+    max-width: none;
+    color: #2d7f73;
+    text-align: left;
+}
+
+.quarks-table-wrap {
+    overflow: auto;
+    max-height: 74vh;
+    margin-top: 1rem;
+    border: 1px solid #d8e2ea;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 12px 28px rgba(19, 34, 53, 0.06);
+}
+
+.md-typeset table.quarks-target-table {
+    width: 100%;
+    min-width: 860px;
+    margin: 0 !important;
+    border: 0 !important;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: left !important;
+}
+
+.md-typeset table.quarks-target-table th,
+.md-typeset table.quarks-target-table td {
+    padding: 0.58rem 0.72rem !important;
+    border: 0;
+    border-bottom: 1px solid #e5edf3;
+    text-align: left !important;
+    white-space: nowrap;
+}
+
+.md-typeset table.quarks-target-table th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    color: #ffffff;
+    background: #0f3654 !important;
+    font-size: 0.78rem;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.md-typeset table.quarks-target-table th span {
+    color: #bdd5e2;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.md-typeset table.quarks-target-table tr:nth-child(even) {
+    background-color: #f8fbfd !important;
+}
+
+.md-typeset table.quarks-target-table tr:hover {
+    background-color: #eef8f5 !important;
+}
+
+.md-typeset table.quarks-target-table td {
+    color: #3d5061;
+    font-size: 0.82rem;
+}
+
+.md-typeset table.quarks-target-table .quarks-target-table__id {
+    width: 3.2rem;
+    color: #718292;
+    font-weight: 800;
+}
+
+.md-typeset table.quarks-target-table .quarks-target-table__source a {
+    color: #1f6f9f;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.md-typeset table.quarks-target-table .quarks-target-table__source a:hover {
+    color: #2d7f73;
+}
+
+.md-typeset table.quarks-target-table .quarks-target-table__coord {
+    font-variant-numeric: tabular-nums;
+}
+
+.quarks-contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.quarks-contact-card {
+    padding: 1.3rem 1.25rem;
+    border: 1px solid #d8e2ea;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 12px 28px rgba(19, 34, 53, 0.06);
+}
+
+.quarks-contact-card > span {
+    display: inline-block;
+    margin-bottom: 0.65rem;
+    color: #2d7f73;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.md-typeset .quarks-contact-card h2 {
+    font-size: 1.35rem;
+}
+
+.quarks-contact-card p {
+    margin: 0.75rem 0 0;
+    color: #536578;
+    font-size: 0.95rem;
+    line-height: 1.58;
+}
+
+.quarks-contact-card__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-top: 1.1rem;
+}
+
+.md-typeset .quarks-contact-card__actions a {
+    display: inline-flex;
+    min-height: 2.35rem;
+    align-items: center;
+    padding: 0.5rem 0.72rem;
+    border: 1px solid #c9d7e1;
+    border-radius: 6px;
+    color: #0f3654;
+    background: #f8fbfd;
+    font-size: 0.86rem;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.md-typeset .quarks-contact-card__actions a:hover {
+    border-color: #2d7f73;
+    color: #2d7f73;
+    background: #eef8f5;
+}
+
+.quarks-contact-note {
+    margin-top: 1rem;
+    padding: 1rem 1.1rem;
+    border-left: 4px solid #1f6f9f;
+    border-radius: 8px;
+    background: #f5f9fc;
+}
+
+.quarks-contact-note p {
+    margin: 0;
+    color: #536578;
+    font-size: 0.92rem;
+    line-height: 1.55;
 }
 
 .quarks-team {
@@ -939,11 +1313,14 @@
 
     .quarks-overview,
     .quarks-links,
-    .quarks-team__grid {
+    .quarks-team__grid,
+    .quarks-info-grid,
+    .quarks-target-summary {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .quarks-section {
+    .quarks-section,
+    .quarks-story {
         grid-template-columns: 1fr;
         gap: 1.2rem;
         margin-top: 3rem;
@@ -967,6 +1344,20 @@
 
     .quarks-atlas__header p {
         margin-top: 0.45rem;
+    }
+
+    .quarks-targets__header {
+        display: block;
+    }
+
+    .quarks-targets__header p {
+        max-width: none;
+        margin-top: 0.45rem;
+        text-align: left;
+    }
+
+    .quarks-contact-grid {
+        grid-template-columns: 1fr;
     }
 
     .quarks-atlas__grid {
@@ -1018,8 +1409,34 @@
 
     .quarks-overview,
     .quarks-links,
-    .quarks-team__grid {
+    .quarks-team__grid,
+    .quarks-info-grid,
+    .quarks-target-summary,
+    .quarks-flow {
         grid-template-columns: 1fr;
+    }
+
+    .quarks-flow__item:not(:last-child)::after {
+        display: none;
+    }
+
+    .quarks-legacy-actions,
+    .quarks-contact-card__actions {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .md-typeset .quarks-contact-card__actions a {
+        justify-content: center;
+    }
+
+    .quarks-table-wrap {
+        max-height: none;
+    }
+
+    .md-typeset table.quarks-target-table th,
+    .md-typeset table.quarks-target-table td {
+        padding: 0.5rem 0.58rem !important;
     }
 
     .quarks-atlas-summary,
