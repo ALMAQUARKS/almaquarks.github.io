@@ -28,3 +28,8 @@ venv/
 
 # Logs
 *.log
+
+# Local working materials
+QUARKS_ATLAS/
+QUARKS_ATLAS_new.pdf
+word/
