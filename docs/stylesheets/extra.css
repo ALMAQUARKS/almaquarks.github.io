@@ -151,7 +151,7 @@
     width: 100%;
     margin: 0 auto;
     padding: clamp(3.5rem, 8vw, 6rem) 2rem clamp(7rem, 14vh, 9rem);
-    transform: translateY(-3rem);
+    transform: translateY(-1.8rem);
 }
 
 .quarks-kicker {
@@ -426,6 +426,92 @@
     text-transform: uppercase;
 }
 
+.quarks-atlas-summary {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1px;
+    max-width: 980px;
+    margin: 0 auto 2rem;
+    border: 1px solid #d8e2ea;
+    background: #d8e2ea;
+}
+
+.quarks-atlas-summary div {
+    padding: 1rem 1.1rem;
+    background: #ffffff;
+}
+
+.quarks-atlas-summary strong,
+.quarks-atlas-summary span {
+    display: block;
+}
+
+.quarks-atlas-summary strong {
+    color: #0f3654;
+    font-size: 1.35rem;
+    font-weight: 800;
+}
+
+.quarks-atlas-summary span {
+    margin-top: 0.3rem;
+    color: #647587;
+    font-size: 0.88rem;
+}
+
+.quarks-atlas {
+    max-width: 1060px;
+    margin: 0 auto 2.5rem;
+}
+
+.quarks-atlas__header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    align-items: end;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d8e2ea;
+}
+
+.md-typeset .quarks-atlas__header h2 {
+    margin: 0;
+    color: #132235;
+    font-size: 1.55rem;
+    letter-spacing: 0;
+}
+
+.quarks-atlas__header p {
+    margin: 0;
+    color: #647587;
+    font-size: 0.92rem;
+}
+
+.quarks-atlas__grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0.6rem;
+    margin-top: 1rem;
+}
+
+.md-typeset .quarks-atlas__grid a {
+    display: block;
+    padding: 0.65rem 0.75rem;
+    border: 1px solid #d8e2ea;
+    border-radius: 6px;
+    color: #0f3654;
+    background: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    transition: border-color 160ms ease, background 160ms ease, color 160ms ease;
+}
+
+.md-typeset .quarks-atlas__grid a:hover {
+    border-color: #2d7f73;
+    background: #eef8f5;
+    color: #2d7f73;
+}
+
 .quarks-publications {
     max-width: 1040px;
     margin: 0 auto 2.5rem;
@@ -637,6 +723,22 @@
         margin-top: 0.45rem;
     }
 
+    .quarks-atlas-summary {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .quarks-atlas__header {
+        display: block;
+    }
+
+    .quarks-atlas__header p {
+        margin-top: 0.45rem;
+    }
+
+    .quarks-atlas__grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
     .quarks-publication-group__header {
         grid-template-columns: 1fr;
         gap: 0.4rem;
@@ -675,6 +777,11 @@
     .quarks-overview,
     .quarks-links,
     .quarks-team__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .quarks-atlas-summary,
+    .quarks-atlas__grid {
         grid-template-columns: 1fr;
     }
 
