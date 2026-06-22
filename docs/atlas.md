@@ -1,8 +1,8 @@
 # Atlas
 
-The Atlas section will host source-by-source **ATOMS + QUARKS multi-scale images**.
+The Atlas section will host a **multi-scale and multi-wavelength image atlas for individual QUARKS sources**.
 
-Each target will eventually have a corresponding visual product that combines the broader ATOMS context with the higher-resolution QUARKS view. The current atlas draft is organized as one source per page in `QUARKS_ATLAS_new.pdf`; the website version will be converted into a browsable source-by-source atlas.
+Each target will eventually have a corresponding visual product that combines the broader ATOMS context with the higher-resolution QUARKS view and other wavelength information when available. The current atlas draft is organized as one source per page in `QUARKS_ATLAS_new.pdf`; the website version will be converted into a browsable source-by-source atlas.
 
 Planned atlas entries:
 
