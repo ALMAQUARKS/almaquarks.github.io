@@ -33,3 +33,7 @@ venv/
 QUARKS_ATLAS/
 QUARKS_ATLAS_new.pdf
 word/
+
+# Local continuum intermediates; the website publishes pbcor FITS products.
+docs/continuum/*/concat_flag_continuum_final.image.tt0.fits
+docs/continuum/*/concat_flag_continuum_final.residual.tt0.fits
