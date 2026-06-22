@@ -120,7 +120,7 @@
         <h3><a href="../Figures/continuum/I11298-6155/I11298-6155.png" target="_blank" rel="noopener">I11298-6155</a></h3>
         <div class="quarks-product-card__actions">
           <a href="../Figures/continuum/I11298-6155/I11298-6155.png" target="_blank" rel="noopener">View image</a>
-          <span class="quarks-product-card__disabled">FITS pending</span>
+          <a href="I11298-6155/concat_flag_continuum_final.image.tt0.pbcor.fits" download>Download FITS</a>
         </div>
       </div>
     </article>
@@ -264,7 +264,7 @@
         <h3><a href="../Figures/continuum/I13291-6249/I13291-6249.png" target="_blank" rel="noopener">I13291-6249</a></h3>
         <div class="quarks-product-card__actions">
           <a href="../Figures/continuum/I13291-6249/I13291-6249.png" target="_blank" rel="noopener">View image</a>
-          <span class="quarks-product-card__disabled">FITS pending</span>
+          <a href="I13291-6249/concat_flag_continuum_final.image.tt0.pbcor.fits" download>Download FITS</a>
         </div>
       </div>
     </article>
@@ -372,7 +372,7 @@
         <h3><a href="../Figures/continuum/I14382-6017/I14382-6017.png" target="_blank" rel="noopener">I14382-6017</a></h3>
         <div class="quarks-product-card__actions">
           <a href="../Figures/continuum/I14382-6017/I14382-6017.png" target="_blank" rel="noopener">View image</a>
-          <span class="quarks-product-card__disabled">FITS pending</span>
+          <a href="I14382-6017/concat_flag_continuum_final.image.tt0.pbcor.fits" download>Download FITS</a>
         </div>
       </div>
     </article>
