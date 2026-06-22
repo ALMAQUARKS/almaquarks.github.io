@@ -677,6 +677,10 @@
     gap: 1rem;
 }
 
+.quarks-contact-grid:has(.quarks-contact-card:only-child) {
+    grid-template-columns: minmax(0, 0.68fr);
+}
+
 .quarks-contact-card {
     padding: 1.3rem 1.25rem;
     border: 1px solid #d8e2ea;
