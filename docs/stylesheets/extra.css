@@ -633,9 +633,11 @@
 }
 
 .md-typeset table.quarks-target-table th span {
+    display: block;
     color: #bdd5e2;
     font-size: 0.7rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .md-typeset table.quarks-target-table th sub {
@@ -959,6 +961,7 @@
     margin: 0;
     font-size: 1rem;
     letter-spacing: 0;
+    text-align: center;
 }
 
 .md-typeset .quarks-product-card h3 a {
@@ -974,6 +977,7 @@
 .quarks-product-card__actions {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.45rem;
     margin-top: 0.7rem;
 }
