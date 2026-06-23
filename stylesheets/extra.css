@@ -161,7 +161,7 @@
 }
 
 .quarks-hero__content > :not(.quarks-actions) {
-    transform: translateY(-1.35rem);
+    transform: translateY(-2.4rem);
 }
 
 .quarks-kicker {
@@ -192,18 +192,18 @@
 }
 
 .quarks-summary {
-    max-width: 760px;
-    margin: 1.2rem 0 0;
+    max-width: 840px;
+    margin: 1rem 0 0;
     color: #d4dee7;
-    font-size: 1rem;
-    line-height: 1.65;
+    font-size: 0.95rem;
+    line-height: 1.52;
 }
 
 .quarks-actions {
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
-    margin-top: 2.4rem;
+    margin-top: 4.8rem;
 }
 
 .md-typeset .quarks-button {
@@ -1429,6 +1429,7 @@
     .quarks-actions {
         display: grid;
         grid-template-columns: 1fr;
+        margin-top: 1.6rem;
     }
 
     .md-typeset .quarks-button {
