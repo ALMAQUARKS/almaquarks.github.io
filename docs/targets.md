@@ -21,7 +21,7 @@
   </article>
   <article>
     <strong>Band 6</strong>
-    <span>High-resolution ALMA follow-up</span>
+    <span>ALMA follow-up</span>
   </article>
 </section>
 
