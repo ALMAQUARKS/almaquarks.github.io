@@ -2,7 +2,7 @@
   <p class="quarks-kicker">Targets</p>
   <h1>QUARKS Target Catalog</h1>
   <p>
-    The QUARKS sample contains 139 massive star-forming regions followed up from the ATOMS legacy survey. The table keeps the full source list visible while making the observational parameters easier to scan.
+    The QUARKS sample contains 139 massive star-forming regions followed up from the ATOMS legacy survey. The table lists source names, Galactic names, coordinates, distances, dust temperatures, bolometric luminosities, and clump masses.
   </p>
 </section>
 
