@@ -4,9 +4,10 @@
   <div class="quarks-hero__content">
     <p class="quarks-kicker">ATOMS + QUARKS</p>
     <h1>QUARKS Survey</h1>
-    <p class="quarks-subtitle">A high-resolution ALMA Band 6 view of massive protoclusters, building on the ATOMS Band 3 legacy.</p>
+    <p class="quarks-subtitle">Using ALMA's sharpest eyes to explore the birthplaces of massive stars and reveal how their earliest groups assemble.</p>
     <p class="quarks-summary">
-      QUARKS follows dense protoclusters from the ATOMS sample to smaller physical scales, combining target catalogs,
+      QUARKS (Querying Underlying mechanisms of massive star formation with ALMA-Resolved gas Kinematics and Structures)
+      follows dense star-forming protoclusters from the ATOMS sample to smaller physical scales, combining target catalogs,
       continuum products, and multi-scale image atlases to study fragmentation, core formation, gas kinematics,
       accretion flows, feedback, and the early evolution of massive star-forming regions.
     </p>
@@ -39,12 +40,12 @@
 <section class="quarks-section">
   <div>
     <p class="quarks-section__eyebrow">Survey Scope</p>
-    <h2>Connecting clump-scale environments to protocluster-scale structure</h2>
+    <h2>Connecting clump-scale environments to the birthplaces of massive stars</h2>
   </div>
   <div class="quarks-section__body">
     <p>
       ATOMS established a uniform ALMA Band 3 view of active massive star-forming regions. QUARKS extends this foundation
-      with higher-resolution Band 6 observations, targeting the internal structure and kinematics of dense protoclusters.
+      with higher-resolution Band 6 observations, targeting the internal structure and kinematics of dense star-forming protoclusters.
     </p>
     <p>
       This website is designed as the public entry point for QUARKS products: target information, continuum images and FITS
