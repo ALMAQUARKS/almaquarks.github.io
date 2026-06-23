@@ -614,10 +614,11 @@
 
 .md-typeset table.quarks-target-table th,
 .md-typeset table.quarks-target-table td {
-    padding: 0.58rem 0.72rem !important;
+    padding: 0.54rem 0.7rem !important;
     border: 0;
     border-bottom: 1px solid #e5edf3;
-    text-align: left !important;
+    text-align: center !important;
+    vertical-align: middle !important;
     white-space: nowrap;
 }
 
@@ -628,14 +629,16 @@
     color: #ffffff;
     background: #0f3654 !important;
     font-size: 0.78rem;
-    line-height: 1.2;
+    line-height: 1.18;
     font-weight: 800;
+    letter-spacing: 0;
 }
 
 .md-typeset table.quarks-target-table th span {
     display: block;
+    margin-top: 0.16rem;
     color: #bdd5e2;
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     font-weight: 700;
     text-align: center;
 }
@@ -656,6 +659,7 @@
 .md-typeset table.quarks-target-table td {
     color: #3d5061;
     font-size: 0.82rem;
+    line-height: 1.25;
 }
 
 .md-typeset table.quarks-target-table .quarks-target-table__id {
@@ -682,6 +686,12 @@
     color: #0f3654;
     font-weight: 700;
     font-variant-numeric: tabular-nums;
+}
+
+.md-typeset table.quarks-target-table .quarks-target-table__number {
+    color: #243f55;
+    font-variant-numeric: tabular-nums;
+    font-weight: 650;
 }
 
 .quarks-contact-grid {
