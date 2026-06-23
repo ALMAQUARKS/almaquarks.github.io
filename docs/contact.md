@@ -12,8 +12,8 @@
     <h2>Survey Products</h2>
     <p>Use this contact for questions about target information, continuum files, image atlases, and product usage.</p>
     <div class="quarks-contact-card__actions">
-      <a href="mailto:astrojiao@gmail.com">astrojiao@gmail.com</a>
-      <a href="mailto:liutie@shao.ac.cn">liutie@shao.ac.cn</a>
+      <a href="mailto:astrojiao@gmail.com">Wenyu Jiao - astrojiao@gmail.com</a>
+      <a href="mailto:liutie@shao.ac.cn">Tie Liu - liutie@shao.ac.cn</a>
     </div>
   </article>
 </section>
