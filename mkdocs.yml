@@ -1,4 +1,5 @@
 site_name: ALMA QUARKS Survey
+copyright: Website built by Wenyu Jiao
 
 theme:
   name: material
@@ -18,6 +19,9 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extra.css
+
+extra:
+  generator: false
 
 nav:
   - Home: index.md
