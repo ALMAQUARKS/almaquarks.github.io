@@ -9,7 +9,7 @@
 
 <section class="quarks-team">
   <div class="quarks-team__header">
-    <h2>Consortium Members</h2>
+    <h2>Management Team</h2>
     <p>Names are sorted alphabetically by family name.</p>
   </div>
 
