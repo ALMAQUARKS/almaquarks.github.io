@@ -361,6 +361,10 @@
     margin-bottom: 1.45rem;
 }
 
+.quarks-page-heading--collaborators {
+    margin-bottom: 1.8rem;
+}
+
 .md-typeset .quarks-page-heading h1 {
     display: block !important;
     margin: 0;
@@ -853,14 +857,6 @@
     margin: 0;
     color: #132235;
     font-size: 1.55rem;
-}
-
-.quarks-collaborators-callout p:last-child {
-    max-width: 590px;
-    margin: 0.45rem 0 0;
-    color: #536578;
-    font-size: 0.94rem;
-    line-height: 1.55;
 }
 
 .quarks-collaborators-callout__actions {
