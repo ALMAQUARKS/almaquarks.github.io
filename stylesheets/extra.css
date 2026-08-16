@@ -877,7 +877,7 @@
 
 .quarks-collaborators-intro {
     display: grid;
-    grid-template-columns: minmax(180px, 0.42fr) minmax(0, 1fr) auto;
+    grid-template-columns: minmax(180px, 0.42fr) minmax(0, 1fr);
     align-items: center;
     gap: 2rem;
     max-width: 1060px;
