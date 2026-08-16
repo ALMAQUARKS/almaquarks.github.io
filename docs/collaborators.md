@@ -12,9 +12,8 @@
     <span>published collaborators</span>
   </div>
   <p>
-    This public roster is compiled from ATOMS and QUARKS author lists. The collaboration directory is available as a downloadable file.
+    This public roster is compiled from ATOMS and QUARKS author lists.
   </p>
-  <a class="quarks-button quarks-button--outline" href="../downloads/ATOMS_collaboration_directory.csv" download>Download Directory</a>
 </section>
 
 <section class="quarks-collaborators" aria-label="ATOMS and QUARKS collaborator roster">
