@@ -44,3 +44,17 @@
     <div class="quarks-team__member"><span>Lei Zhu</span><strong>Zhu</strong></div>
   </div>
 </section>
+
+<section class="quarks-collaborators-callout" aria-label="Full collaborator roster">
+  <div>
+    <p class="quarks-section__eyebrow">ATOMS + QUARKS</p>
+    <h2>Complete Collaborators</h2>
+    <p>
+      The full public roster brings together authors who have contributed to ATOMS and QUARKS publications.
+    </p>
+  </div>
+  <div class="quarks-collaborators-callout__actions">
+    <a class="quarks-button quarks-button--primary" href="../collaborators/" target="_blank" rel="noopener">View Collaborators</a>
+    <a class="quarks-button quarks-button--outline" href="../downloads/ATOMS_collaboration_directory.csv" download>Download Directory</a>
+  </div>
+</section>
