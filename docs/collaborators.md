@@ -45,14 +45,12 @@
     <span>Shih-Ying Hsu</span>
     <span>Jihye Hwang</span>
     <span>Namitha Issac</span>
-    <span>Jiaxiang Jiao</span>
     <span>Sihan Jiao</span>
     <span>Wenyu Jiao</span>
     <span>Yunfan Jiao</span>
     <span>Izaskun Jimenez-Serra</span>
     <span>Doug Johnstone</span>
     <span>Mika Juvela</span>
-    <span>Jun Kang</span>
     <span>Sung-Ju Kang</span>
     <span>Kee-Tae Kim</span>
     <span>Zhiping Kou</span>
@@ -80,7 +78,7 @@
     <span>Qiuyi Luo</span>
     <span>Yongquan Luo</span>
     <span>Yingxiu Ma</span>
-    <span>Gordon MacLeod</span>
+    <span>Macleod Gordon</span>
     <span>Xiaofeng Mai</span>
     <span>Arup Kumar Maity</span>
     <span>Emma Mannfors</span>
@@ -90,7 +88,6 @@
     <span>Andres Megias</span>
     <span>Dezhao Meng</span>
     <span>Manuel Merello</span>
-    <span>Laurent Pagani</span>
     <span>Aina Palau</span>
     <span>Sergey Parfenov</span>
     <span>Ya-Ping Peng</span>
@@ -134,7 +131,6 @@
     <span>Hyeong-Sik Yun</span>
     <span>Luis A. Zapata</span>
     <span>Annie Zavagno</span>
-    <span>Bo Zhang</span>
     <span>Chang Zhang</span>
     <span>Chao Zhang</span>
     <span>Guoyin Zhang</span>
