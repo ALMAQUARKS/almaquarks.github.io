@@ -1,9 +1,6 @@
-<section class="quarks-page-heading quarks-page-heading--compact">
+<section class="quarks-page-heading quarks-page-heading--compact quarks-page-heading--collaborators">
   <p class="quarks-kicker">ATOMS + QUARKS</p>
   <h1>Collaborators</h1>
-  <p>
-    Researchers who have contributed to the ATOMS legacy and QUARKS survey through the published literature.
-  </p>
 </section>
 
 <section class="quarks-collaborators-intro">
