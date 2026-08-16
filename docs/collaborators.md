@@ -3,16 +3,6 @@
   <h1>Collaborators</h1>
 </section>
 
-<section class="quarks-collaborators-intro">
-  <div>
-    <span class="quarks-collaborators-intro__number">147</span>
-    <span>published collaborators</span>
-  </div>
-  <p>
-    This public roster is compiled from ATOMS and QUARKS author lists.
-  </p>
-</section>
-
 <section class="quarks-collaborators" aria-label="ATOMS and QUARKS collaborator roster">
   <div class="quarks-collaborators__grid">
     <span>Rodrigo H. Alvarez-Gutierrez</span>
