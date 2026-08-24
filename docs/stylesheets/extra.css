@@ -779,6 +779,74 @@
     line-height: 1.55;
 }
 
+.quarks-contact-panel {
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(18rem, 0.65fr);
+    max-width: 1060px;
+    margin: 1.5rem auto 0;
+    overflow: hidden;
+    border: 1px solid #d8e2ea;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 12px 28px rgba(19, 34, 53, 0.06);
+}
+
+.quarks-contact-panel__intro,
+.quarks-contact-panel__person {
+    padding: 2rem;
+}
+
+.quarks-contact-panel__intro {
+    background: #f7fafb;
+}
+
+.md-typeset .quarks-contact-panel h2 {
+    margin: 0;
+    color: #132235;
+    font-size: 1.6rem;
+    letter-spacing: 0;
+}
+
+.quarks-contact-panel__intro > p:last-child {
+    max-width: 38rem;
+    margin: 0.85rem 0 0;
+    color: #536578;
+    font-size: 1rem;
+    line-height: 1.65;
+}
+
+.quarks-contact-panel__person {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-left: 1px solid #d8e2ea;
+}
+
+.quarks-contact-panel__person > span {
+    margin-bottom: 0.65rem;
+    color: #2d7f73;
+    font-size: 0.72rem;
+    font-weight: 760;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.md-typeset .quarks-contact-panel__email {
+    margin-top: 0.55rem;
+    color: #3a6281;
+    font-size: 0.96rem;
+    text-decoration: none;
+}
+
+.md-typeset .quarks-contact-panel__email:hover {
+    color: #2d7f73;
+    text-decoration: underline;
+}
+
+.quarks-contact-panel__person .quarks-button {
+    margin-top: 1.35rem;
+}
+
 .quarks-team {
     max-width: 1060px;
     margin: 0 auto 2rem;
@@ -1497,6 +1565,15 @@
 
     .quarks-contact-grid {
         grid-template-columns: 1fr;
+    }
+
+    .quarks-contact-panel {
+        grid-template-columns: 1fr;
+    }
+
+    .quarks-contact-panel__person {
+        border-top: 1px solid #d8e2ea;
+        border-left: 0;
     }
 
     .quarks-atlas__grid {
