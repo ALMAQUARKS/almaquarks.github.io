@@ -6,7 +6,6 @@
 <section class="quarks-contact-panel" aria-label="QUARKS contact information">
   <div class="quarks-contact-panel__intro">
     <p class="quarks-section__eyebrow">Science, data, and collaboration</p>
-    <h2>Get in touch</h2>
     <p>
       For questions about the QUARKS survey, data products, or related collaborations, please contact the team.
     </p>
