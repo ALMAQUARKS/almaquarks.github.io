@@ -31,6 +31,7 @@ venv/
 
 # Local working materials
 QUARKS_ATLAS/
+/docs/downloads/ATOMS_collaboration_directory.csv
 QUARKS_ATLAS_new.pdf
 word/
 
